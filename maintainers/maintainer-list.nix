@@ -15590,6 +15590,12 @@
     github = "phijor";
     githubId = 10487782;
   };
+  phil170 = {
+    name = "phil170";
+    email = "phil170@mailbox.org";
+    github = "phil170";
+    githubId = 93428721;
+  };
   philandstuff = {
     email = "philip.g.potter@gmail.com";
     github = "philandstuff";

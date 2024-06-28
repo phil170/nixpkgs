@@ -25909,6 +25909,8 @@ with pkgs;
     ffmpeg = ffmpeg_4;
   };
 
+  podsync = callPackage ../servers/podsync { };
+
   popa3d = callPackage ../servers/mail/popa3d { };
 
   postfix = callPackage ../servers/mail/postfix { };
