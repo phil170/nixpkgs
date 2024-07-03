@@ -141,6 +141,13 @@ with lib.maintainers;
     enableFeatureFreezePing = true;
   };
 
+  clevercloud = {
+    members = [ floriansanderscc ];
+    scope = "Maintain Clever Cloud related packages.";
+    shortName = "CleverCloud";
+    githubTeams = [ "CleverCloud" ];
+  };
+
   cloudposse = {
     members = [ dudymas ];
     scope = "Maintain atmos and applications made by the Cloud Posse team.";
@@ -192,7 +199,6 @@ with lib.maintainers;
 
   dotnet = {
     members = [
-      ivar
       mdarocha
       corngood
       ggg
@@ -380,6 +386,7 @@ with lib.maintainers;
   golang = {
     members = [
       kalbasit
+      katexochen
       mic92
       zowoq
       qbit
@@ -460,7 +467,6 @@ with lib.maintainers;
     members = [
       cleverca22
       disassembler
-      jonringer
       manveru
       nrdxp
     ];
@@ -709,10 +715,7 @@ with lib.maintainers;
   };
 
   node = {
-    members = [
-      lilyinstarlight
-      winter
-    ];
+    members = [ winter ];
     scope = "Maintain Node.js runtimes and build tooling.";
     shortName = "Node.js";
     enableFeatureFreezePing = true;
@@ -766,7 +769,7 @@ with lib.maintainers;
       aanderse
       drupol
       ma27
-      patka
+      piotrkwiecinski
       talyz
     ];
     githubTeams = [ "php" ];
@@ -794,7 +797,6 @@ with lib.maintainers;
   python = {
     members = [
       hexa
-      jonringer
       natsukium
     ];
     scope = "Maintain the Python interpreter and related packages.";
@@ -913,7 +915,6 @@ with lib.maintainers;
     members = [
       atemu
       eclairevoyant
-      jonringer
       k900
       mkg20001
     ];
@@ -945,7 +946,6 @@ with lib.maintainers;
   vim = {
     members = [
       figsoda
-      jonringer
       softinio
       teto
     ];
